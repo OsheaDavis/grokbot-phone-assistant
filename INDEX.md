@@ -11,3 +11,5 @@ Generic public version of the phone assistant, scrubbed of personal info. Made 2
 - scripts/: set Fly secrets and wire the Twilio VoiceUrl (read values from env, never print them)
 - src/: server, inbound bridge to xAI realtime voice, guardrails, outbound card/approval/dial
 - tests/: 561 node tests, all fixtures use fake 555-01xx numbers and placeholder names
+- LICENSE: MIT, Copyright (c) 2026 OsheaDavis
+- CONTRIBUTING.md: issues, PRs, tests, what never to commit, safety rules

@@ -77,3 +77,7 @@ went through a branch, a test run and a second agent's cross-review before merge
 placed without the owner's explicit yes.
 
 See `GROKBOT_SETUP.md` for a step-by-step setup guide written for an AI assistant.
+
+## License and contributing
+
+MIT licensed, see [LICENSE](LICENSE). To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).

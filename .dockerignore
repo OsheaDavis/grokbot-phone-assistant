@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-test
+.git
+.env
+.env.*
+data
+*.log
+.messages-bearer
+coverage
+tests
+docs
+*.md

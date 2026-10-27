@@ -1,0 +1,40 @@
+# Phase 1 inbound phone assistant. Always on in iad (Fly retired atl). No autosuspend.
+app = "your-app-name"
+primary_region = "iad"
+kill_signal = "SIGTERM"
+kill_timeout = "30s"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+  DATA_DIR = "/data"
+  XAI_VOICE = "your-voice-id"
+  XAI_PRONUNCIATION_REPLACE = "true"
+  RETENTION_DAYS = "30"
+  NODE_OPTIONS = "--max-old-space-size=160"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "off"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    grace_period = "15s"
+    interval = "30s"
+    method = "GET"
+    path = "/health"
+    timeout = "5s"
+
+# shared-cpu-1x, 256mb
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+
+[[mounts]]
+  source = "phone_data"
+  destination = "/data"

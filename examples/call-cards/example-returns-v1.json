@@ -1,0 +1,23 @@
+{
+  "id": "example-returns-v1",
+  "version": 1,
+  "type": "business",
+  "callee": { "name": "Example Partner", "kind": "business_landline", "numberRef": "EXAMPLE_PARTNER" },
+  "why": "Owner works at Example Business. Asking whether Example Partner has any Example return cars or keys.",
+  "goal": "Learn yes or no, and if yes, roughly what (car or keys) and when Example Business can pick them up.",
+  "script": {
+    "opener": "Hi, this is Owner's AI bot, calling for Example Business to see if you have any returns for us. You can reach us at [callback number].",
+    "aiOffer": "If you would rather not speak with an AI, say so and I will hang up.",
+    "question": "Do you have any Example return cars or keys for us?",
+    "followUp": "Is it a car or keys, and roughly when can we pick them up?",
+    "repeat": "Sorry, do you have any Example return cars or keys for us?",
+    "refuse": "Sorry, I can only ask about returns. Thank you, have a good night.",
+    "decline": "Understood. Goodbye.",
+    "close": "Thank you, have a good night."
+  },
+  "allowedTopics": ["example_returns"],
+  "give": ["callback_number"],
+  "take": ["returns_answer", "item_type", "pickup_timing"],
+  "end": { "maxTurns": 3, "maxSeconds": 90, "onVoicemail": "hangup_silent", "onNoAnswer": "hangup" },
+  "recording": false
+}

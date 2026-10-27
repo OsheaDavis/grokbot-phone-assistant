@@ -1,0 +1,32 @@
+{
+  "everyday": [
+    "Hey, I'm glad you called! The world's a better place with you in it. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "Well hello there! You've reached Owner's AI Bot, and you just made my day. This call may be recorded. What can I pass along to Owner?",
+    "Hi! Owner's AI Bot here, happy you called. This call may be recorded. What would you like me to tell Owner?",
+    "Hey, great to hear from you! This is Owner's AI Bot, and this call may be recorded. What's the message for Owner today?",
+    "Hello, friend! You've got Owner's AI Bot. This call may be recorded. What can I do for you?"
+  ],
+  "relatives": [
+    "Hey, family is calling, and that is a good thing. This is Owner's AI Bot, and this call may be recorded. What should I tell him?",
+    "Family calls are my favorite kind! This is Owner's AI Bot, and this call may be recorded. What message can I pass along?",
+    "Well this just got good. This is Owner's AI Bot, and this call may be recorded. Owner will want to hear this. What should I tell him?"
+  ],
+  "gentle": "Hi, this is Owner's AI Bot. This call may be recorded. Thank you for calling. How can I help, or what message can I pass to Owner?",
+  "seasonal": {
+    "new_year": "Happy New Year! Owner's AI Bot here, ready to start the year by taking your message. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "valentines": "Happy Valentine's Day! Somebody's loved, and it's probably you. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "st_patricks": "Happy St. Patrick's Day! You're lucky, you got Owner's AI Bot. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "easter": "Happy Easter! He is risen, and I'm here to take your message. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "mothers_day": "Happy Mother's Day to every mom out there! This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "fathers_day": "Happy Father's Day to every dad out there! This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "memorial_day": "This Memorial Day, we're remembering those who served. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "fourth_of_july": "Happy Fourth of July! Hope there's a hot dog in your future. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "labor_day": "Happy Labor Day! I hope you're not working, but I sure am. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "fall": "Happy fall! Pumpkin spice season is officially open. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "halloween": "Happy Halloween! No tricks here, just treats and message-taking. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "veterans_day": "Happy Veterans Day, and thank you to everyone who served. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "thanksgiving": "Happy Thanksgiving! I'm thankful you called. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "christmas": "Merry Christmas! Owner's AI Bot here, sleigh bells and all. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?",
+    "christmas_special": "Merry Christmas! Owner's AI Bot here, sleigh bells and all. Christmas Eve and Christmas Day are here. This is Owner's AI Bot, and this call may be recorded. What message can I leave for Owner?"
+  }
+}

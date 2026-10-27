@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-test/
+.env
+.env.*
+!.env.example
+data/
+*.log
+coverage/
+.messages-bearer
+.DS_Store
+*.tmp

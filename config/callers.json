@@ -1,0 +1,8 @@
+{
+  "allowlist": [],
+  "blocklist": [],
+  "known_contacts_example": [
+    { "name": "Contact One", "relation": "family", "phones": ["+12025550111"] },
+    { "name": "Contact Two", "relation": "friend", "phones": ["+12025550122"] }
+  ]
+}

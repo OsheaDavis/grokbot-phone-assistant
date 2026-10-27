@@ -1,0 +1,14 @@
+title = "phone-assistant"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Placeholders and the public voice id. No live credentials."
+paths = [
+  '''(^|/)\.env\.example$''',
+  '''(^|/)package-lock\.json$''',
+]
+regexes = [
+  '''your-voice-id''',
+]
